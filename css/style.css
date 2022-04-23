@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    
+}
+
+.header-make {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 40px;
+}
+
+.header-make .list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    left: 15%;
+}
+
+.header-make .list .insidelist {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
